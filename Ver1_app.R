@@ -7,7 +7,7 @@ library(lubridate)
 
 # ------------------------------------------------------------------
 # LOAD DATA for Position-Specific Insights (players.csv)
-players <- read.csv("D:/bak/3rd year 2nd sem/PDS/NFL/players.csv", stringsAsFactors = FALSE)
+players <- read.csv("players.csv", stringsAsFactors = FALSE)
 # Standardize column names to lowercase
 colnames(players) <- tolower(colnames(players))
 # Drop rows where nflid is missing
@@ -28,9 +28,9 @@ players$height <- as.numeric(players$height)
 
 # ------------------------------------------------------------------
 # LOAD DATA for NFL Sports Analytics (Team & Cumulative Metrics)
-week_data <- read.csv("D:/bak/3rd year 2nd sem/PDS/NFL/week_data.csv", stringsAsFactors = FALSE)
-plays     <- read.csv("D:/bak/3rd year 2nd sem/PDS/NFL/plays.csv", stringsAsFactors = FALSE)
-games     <- read.csv("D:/bak/3rd year 2nd sem/PDS/NFL/games.csv", stringsAsFactors = FALSE)
+week_data <- read.csv("week_data.csv", stringsAsFactors = FALSE)
+plays     <- read.csv("plays.csv", stringsAsFactors = FALSE)
+games     <- read.csv("games.csv", stringsAsFactors = FALSE)
 
 # Standardize column names to lowercase
 colnames(week_data) <- tolower(colnames(week_data))
