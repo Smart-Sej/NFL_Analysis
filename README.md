@@ -9,3 +9,8 @@ giving actionable insights to analysts, coaches, and fans.
 This Project was conducted under the guidance of Sir Rajeshkannan, our course faculty.
 The documentation of the 1st review is provided in the file 
       Review_1.pdf.
+
+
+## To run the code:
+      Add the data source for NFL from Kaggle
+      Run the code in R Shiny
